@@ -1,0 +1,33 @@
+## web应用构建：
+
+###技术核心：
+####用超文本技术实现信息与信息的链接，用统一资源定位实现信息精确定位，用应用层协议实现分布式信息共享。
+
+###环境：
+####Jdk6，tomcat6，mysql5.1###
+
+###架构组件：
+####springmvc+spring
+
+
+* ####创建数据库xx，初始化sql脚本，执行1.sql即可
+
+* ####修改WEB-INF\classes下spring配置文件，spring-context.xml文件
+ ![1.png](http://ww1.sinaimg.cn/mw690/006sf6xZjw1f56ec3usg3j312g05u77s.jpg)
+
+
+* ####将Root文件夹放在tomcat webapp目录下，覆盖Root
+
+* ####启动tomcat即可
+
+
+####操作结果
+####搜索
+ ![2.png](http://ww2.sinaimg.cn/mw690/006sf6xZjw1f56ec43vd4j30t202z0tm.jpg)
+
+####评论，推荐
+![3.png](http://ww3.sinaimg.cn/mw690/006sf6xZjw1f56ec47t9ij30vu0du76i.jpg)
+![4.png](http://ww3.sinaimg.cn/mw690/006sf6xZjw1f56ec4hvxrj30j20ev75p.jpg)
+ 
+###Web应用部署：
+####按照管理客户对web应用增量的期望；安装与测试交付包；交付前建立支持制度；先改正有缺陷的web应用再交付等原则，以增量迭代方式进行部署。
